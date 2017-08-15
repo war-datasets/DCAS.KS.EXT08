@@ -4,4 +4,4 @@ Een dataset omtrent 36574 Amerikaanse officieren die zijn gesneuveld tijdens de 
 
 
 ## Bron: 
-Als basis en bron is de ruwe dataset gebruikt die je [hier](https://catalog.archives.gov/id/2240992) kunt vinden.
+Als basis en bron is de ruwe dataset gebruikt die je [hier](https://catalog.archives.gov/id/2240988) kunt vinden.
