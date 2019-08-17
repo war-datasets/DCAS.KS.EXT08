@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS casualties (
   oitp                  VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Operation incident type code',
   oi_name               VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Operation/Incident name',
   oi_location           VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Location name',
-  close_dt              DATE         COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Closure date',
+  close_dt              TEXT         COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Closure date',
   aircraft              VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Aircraft type',
   h                     VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Hostile or non-hostile indicator',
   casualty_type_name    VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Casuality type name',
@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS casualties (
   casualty_closure_name VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Casualty closure name',
   wall                  VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Vietnam wall row and panel indicator',
   Incident_category     VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Casualty category name',
-  i_status_dt           DATE         COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Incident casualty category date',
+  i_status_dt           TEXT        COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Incident casualty category date',
   i_csn                 VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'incident casualty cat. short name',
   i_h                   VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Incident hostile or Incident non-hostile death',
   i_aircraft            VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Incident aircraft type'
